@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navigation Webpage</title>
+        <style>
+            *{
+                text-decoration:none;
+                list-style: none;
+            }
+            body{
+                background-image: url("https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/16:9/w_4288,h_2412,c_limit/BlackForest-Germany-GettyImages-147180370.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            a{
+                color:white;
+                font-weight: bold;
+            }
+            .navbar{
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            li{
+                display:inline-block;
+                padding:10px;
+            }
+
+            li:hover{
+               background-color: black; 
+            }
+            li a:hover{
+                color:white;
+            }
+
+            .text{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 240px;
+            }
+
+            .paraone{
+                font-size: 30px;
+                color:white;
+                font-weight: bold;
+            }
+            .paratwo{
+                color:white;
+                font-size: 25px;
+            }
+            .paraone,.paratwo{
+                margin:0;
+                padding:10px;
+            }
+
+            .paratwo span{
+                text-decoration: rgb(30, 210, 30) underline;
+                color:white;
+            }
+            button{
+                background-color: rgb(106, 185, 64);
+                color:white;
+                border:0;
+                padding:10px;
+                font-weight: bold;
+                border-radius: 5px;
+                margin-top:30px;
+            }
+
+            .navbar>p{
+                font-size:30px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="navi">
+        <nav class="navbar">
+            <p><a href="#">Initial</a></p>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="text">
+        <p class="paraone">Create Good Free Templates</p>
+        <p class="paratwo">A free template by <span>uicookies.com</span></p>
+        <button>Get Started</button>
+    </div>
+    </body>
+</html>
